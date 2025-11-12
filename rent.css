@@ -1,0 +1,86 @@
+.flex{
+    display: flex;
+}
+ .card {
+  margin: 10px;
+
+}
+.list {
+background:#fff;
+border-radius:10px;
+text-align:center;
+padding:15px;
+box-shadow:0 2px 5px rgba(0,0,0,.1);
+height: 220px;
+width: 210px;
+}
+.list:hover{
+    transform:scale(1.03);
+}
+.list>img{
+    width: 100%;
+    height:130px;
+    object-fit:contain;
+    margin-bottom:10px
+}
+.list h4{
+    margin-bottom: 5px;
+}
+.list p{
+    color:#555;
+    margin-bottom:10px;
+}
+.list button{
+    background-color:lightskyblue ;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+}
+.list button:hover{
+    background-color: rgb(62, 62, 158) ;
+}
+.popup-bg{
+    position:fixed;
+    top: 200px;
+    left: 500px;
+    width:auto;
+    height:auto;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.popup{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    width:330px;
+    box-shadow:0 2px 5px rgba(122, 47, 47, 0.2);
+}
+    .popup h3{
+        margin-bottom:10px;
+    }
+    .popup label{
+        display:block;
+        margin-top:10px;
+    }
+    .popup input{
+        width:100%;
+        padding:8px;
+        margin-top:5px;
+        border:1px solid #ccc;
+        border-radius:6px;
+    }
+    .popup button
+    {margin-top:15px;
+        width:100%;
+        padding:10px;
+        border:none;
+        border-radius:6px;
+        color:white;
+        background:#2563eb;
+        cursor:pointer;
+    }
+    .popup button:hover{
+        background:#1e3a8a;
+    }

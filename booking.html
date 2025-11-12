@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bookings</title>
+  <link rel="stylesheet" href="./syyle.css">
+  <link rel="stylesheet" href="./">
+ <link rel="stylesheet" href="./booking.css">
+</head>
+<body>
+  <div class="flex">
+    <div class="sidebar">
+      <h2>Vehicle Rental</h2>
+      <a href="./user.html" class="menu">Dashboard</a>
+      <a href="./rent.html" class="menu">Rent Now</a>
+      <a href="./booking.html" class="menu">My Booking</a>
+     <a href="./payment.html" class="menu">Payment</a>
+        <a href="#" class="logout"><i class="fa-solid fa-right-from-bracket"></i>Log Out </a>
+          
+    </div>
+
+    <div class="main">
+      <div class="top">
+        <h1>EasyRide</h1>
+      </div>
+      <div class="text">
+        <h2>My Bookings</h2>
+        <table border="1" width="100%" cellpadding="10" id="bookingTable">
+          <thead>
+            <tr>
+              <th>Vehicle</th>
+              <th>Pickup</th>
+              <th>Drop</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+            </tr>
+          </thead>
+          <tbody id="bookingData">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
